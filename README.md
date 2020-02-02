@@ -10,7 +10,6 @@
         width:50%;
     }
     .tekst{
-        
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     #slika{
