@@ -38,8 +38,9 @@
         Vrijeme : 18h<br>
         Ulaz : 3KM<br>
         Vrijeme rada:128 minuta
-
-      <p class="glumci">  Glavni glumci :
+</p>
+      <p class="glumci">  
+      Glavni glumci :
             <li>Will Smith kao Genie/Mariner,</li>
            <li>Mena Massoud kao Aladdin</li>
            <li>Naomi Scott kao princeza Jasmine</li>
@@ -50,15 +51,12 @@
            <li>Numan Akar kao Hakim</li>
            <li>Nina Wadia kao Zulla</li>
            <li>Marisha Wallace</li>
-         
-        </p>
-         Redatelj:Guy Ritchie<br>
+          </p>
+         <p>Redatelj:Guy Ritchie<br>
          Scenarist:John August i Guy Ritchie<br>
          Uredio:James Herbert<br>
          Proizvodi:Dan Lin<br>
-
-
-    </p>
+         </p>
     </div>
 </body>
 </html>
