@@ -38,7 +38,7 @@
         Ulaz : 3KM<br>
         Vrijeme rada:128 minuta
 </p>
-      <p class="glumci">  
+      <p>  
       Glavni glumci :
             <li>Will Smith kao Genie/Mariner,</li>
            <li>Mena Massoud kao Aladdin</li>
