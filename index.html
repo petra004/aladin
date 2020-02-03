@@ -5,58 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pozivnica</title>
-<style>
-    body{
-        width:50%;
-        background-image:url("https://images-na.ssl-images-amazon.com/images/I/81zddMLIeaL._SL1371_.gif");
-        width:100%;
-        height:100%;
-    }
-    .tekst{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    #slika{
-        float: left;
-    }
-    h1{
-        font-family: Arial, Helvetica, sans-serif;
-        text-align:center;
-        text-decoration:underline;
-    }
-    .sve{
-        background-color:indianred;
-    }   
-   
-</style>
+    <style>
+        body{
+            background: url(slika.jpg) center center fixed;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size: cover;
+        }
+
+        #mjesto{
+            position: absolute;
+				bottom: 10%;
+				left: 5%;
+				color: #c0ffb3;
+				font-size: 30px;
+                text-decoration: underline;
+        }
+        #vrijeme{
+            position: absolute;
+				top: 5%;
+				left: 30%;
+				color: #c0ffb3;
+				font-size: 30px;
+                
+        }
+        #ulaz{position: absolute;
+				top: 5%;
+				left: 5%;
+				color: #c0ffb3;
+				font-size: 30px;
+           
+        }
+        #Mena{
+            position: absolute;
+				top: 5%;
+				right: 30%;
+				color: #c0ffb3;
+				font-size: 20px;
+        }
+        #Naomi{
+            position: absolute;
+				top: 5%;
+				right: 5%;
+				color: #c0ffb3;
+				font-size: 20px;
+				font-weight: bold;
+        }
+        #redatelj{
+           position: absolute;
+				bottom: 10%;
+				right: 5%;
+				color: #c0ffb3;
+				font-size: 20px;
+
+        }
+    </style>
 </head>
 <body>
-    <div class="sve">
-    <img id="slika"src="https://images-na.ssl-images-amazon.com/images/I/81zddMLIeaL._SL1371_.jpg"  >
-    <p class="tekst">
-        <h1>Aladdin</h1>
-        Mjesto održavanja : Kino dvorana Livno<br>
-        Vrijeme : 18h<br>
-        Ulaz : 3KM<br>
-        Vrijeme rada:128 minuta
-</p>
-      <p>  
-      Glavni glumci :
-            <li>Will Smith kao Genie/Mariner,</li>
-           <li>Mena Massoud kao Aladdin</li>
-           <li>Naomi Scott kao princeza Jasmine</li>
-           <li>Marwan Kenzari kao Jafar</li>
-           <li>Navid Negahban kao sultan</li>
-           <li>Nasim Pedrad kao Dalia</li>
-           <li>Billy Magnussen kao princ Anders</li>
-           <li>Numan Akar kao Hakim</li>
-           <li>Nina Wadia kao Zulla</li>
-           <li>Marisha Wallace</li>
-          </p>
-         <p>Redatelj:Guy Ritchie<br>
-         Scenarist:John August i Guy Ritchie<br>
-         Uredio:James Herbert<br>
-         Proizvodi:Dan Lin<br>
-         </p>
-    </div>
+   
+<div id="mjesto" >   Mjesto održavanja:Kino dvorana Livno<br></div>
+ <div id="vrijeme" >  Vrijeme:18h<br></div>
+ <div id="ulaz" > Ulaz:5 KM<BR></div>
+ <div id="Mena" >  Mena <br>Massoud<br></div>
+  <div id="Naomi">  Naomi <br>Scott<br></div>
+  <div id="redatelj">  Redatelj:<br> Guy Ritchie<br></div>
 </body>
 </html>
